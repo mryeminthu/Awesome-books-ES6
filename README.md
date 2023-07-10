@@ -123,7 +123,7 @@ npx eslint .
 
   <!-- AUTHORS -->
 
-## 👥 Author-1 <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Ye Min Thu**
 
