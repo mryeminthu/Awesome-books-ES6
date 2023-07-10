@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 600;
+}
+
+body {
+  background-color: #e9f1de;
+}
+
+#navbar {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  padding: 0.2em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#menu {
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-right: 0.3em;
+}
+
+.date-time {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.4em;
+}
+
+.awesome-title {
+  font-size: 2.5vw;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#output {
+  padding: 15px;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.form-group h2 {
+  margin-bottom: 10px;
+}
+
+.title-author {
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+#error-msg {
+  color: red;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#addBtn {
+  width: 7vw;
+  padding: 5px 8px;
+  background-color: #728359;
+  color: #e9f1de;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#addBtn:hover {
+  color: #728359;
+  background-color: #e9f1de;
+}
+
+.remove-button {
+  width: 7vw;
+  float: right;
+  margin-right: 0.3em;
+  padding: 2px 8px;
+  background-color: #728359;
+  color: #e9f1de;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  color: #728359;
+  background-color: #e9f1de;
+  border: 1px solid #728359;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+input {
+  display: flex;
+  margin: 0;
+  border: 3px solid #000;
+}
+
+input::placeholder {
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  gap: 5px;
+  border: 4px solid #000;
+}
+
+
+
+/* Book Section */
+
+#book-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.7em;
+}
+
+#book-section > * {
+  margin: 0.3em;
+}
+
+.no-books {
+  background-color: #ababab;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.book-entry {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  padding: 0.2em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Add Books */
+
+#new-books {
+  display: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+  justify-self: flex-end;
+}
+
+.addBtn {
+  align-self: baseline;
+}
+
+/* Contact */
+
+#contact {
+  display: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  padding: 0.2em;
+  align-items: center;
+  margin-top: 12px;
+}
