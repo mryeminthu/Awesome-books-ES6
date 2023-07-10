@@ -132,10 +132,7 @@ input::placeholder {
   border: 4px solid #000;
 }
 
-
-
 /* Book Section */
-
 #book-section {
   display: flex;
   flex-direction: column;
@@ -164,9 +161,7 @@ input::placeholder {
   justify-content: space-between;
 }
 
-
 /* Add Books */
-
 #new-books {
   display: none;
   flex-direction: column;
