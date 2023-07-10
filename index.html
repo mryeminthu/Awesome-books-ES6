@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="container" id="navbar">
+            <h3 id="awesomeBooks">Awesome Books</h3>
+            <ul id="menu">
+                <li id="list-link"><a href="#">List</a></li>
+                <li id="add-link"><a href="#">Add new</a></li>
+                <li id="contact-link"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="date-time"></div> 
+    <section id="book-section">
+        <h1 class="awesome-title">All awesome books</h1>
+        <div id="output"></div>
+    </section>
+    <section id="new-books">
+        <div class="form-group">
+            <h2>Add a new book</h2>
+            <form>
+                <input type="text" class="title-author" placeholder="Title" id="title"><br><br>
+                <input type="text" class="title-author" placeholder="Author" id="author"><br><br>
+                <p id="error-msg"></p>
+                <button id="addBtn" type="button">Add</button>
+            </form>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>We will be pleased to answer any further questions you might have.</p>
+        <br> You can reach us by email or phone.</b>
+        <ul>
+            <li>Our email: example@mail.com</li>
+            <li>Our phone number: 00000000000</li>
+        </ul>
+    </section>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
