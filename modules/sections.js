@@ -1,4 +1,4 @@
-export function displayAllSections() {
+export const displayAllSections = () => {
   const sections = document.querySelectorAll('section');
   sections.forEach((section) => {
     section.style.display = 'flex';
@@ -6,9 +6,9 @@ export function displayAllSections() {
   if (window.bookLibrary) {
     window.bookLibrary.display();
   }
-}
+};
 
-export function displayBookSection() {
+export const displayBookSection = () => {
   const sections = document.querySelectorAll('section');
   sections.forEach((section) => {
     if (section.id === 'book-section') {
@@ -20,9 +20,9 @@ export function displayBookSection() {
   if (window.bookLibrary) {
     window.bookLibrary.display();
   }
-}
+};
 
-export function displayNewBooksSection() {
+export const displayNewBooksSection = () => {
   const sections = document.querySelectorAll('section');
   sections.forEach((section) => {
     if (section.id === 'new-books') {
@@ -31,9 +31,9 @@ export function displayNewBooksSection() {
       section.style.display = 'none';
     }
   });
-}
+};
 
-export function displayContactSection() {
+export const displayContactSection = () => {
   const sections = document.querySelectorAll('section');
   sections.forEach((section) => {
     if (section.id === 'contact') {
@@ -42,4 +42,4 @@ export function displayContactSection() {
       section.style.display = 'none';
     }
   });
-}
+};
