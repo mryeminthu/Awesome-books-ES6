@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Awesome books</b></h3>
+  <h3><b>Awesome books: with ES6</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -28,9 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome books] <a name="about-project"></a>
+# 📖 [Awesome books: with ES6] <a name="about-project"></a>
 
-This project is created to understand different ways to create objects in JavaScript.
+This project is created to understand how to write modular JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,7 +63,7 @@ This project is created to understand different ways to create objects in JavaSc
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mryeminthu.github.io/Awesome-books/)
+- [Live Demo Link](https://mryeminthu.github.io/Awesome-books-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,18 +130,13 @@ npx eslint .
 - GitHub: [@githubhandle](https://github.com/mryeminthu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ye-min-thu-76456a214/)
 
-## 👥 Author-2 <a name="authors"></a>
-👤 **Arch-Noize**
-
-- GitHub: [@githubhandle](https://github.com/Arch-Noize)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- To create Responsive Web Design with working navigation. 
+- To create Responsive Web Design. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +145,7 @@ npx eslint .
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/mryeminthu/Awesome-books/issues).
+Feel free to check the [issues page](https://github.com/mryeminthu/Awesome-books-ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
