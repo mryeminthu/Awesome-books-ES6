@@ -30,7 +30,7 @@
 
 # 📖 [Awesome books: with ES6] <a name="about-project"></a>
 
-This project is created to understand how to write modular JavaScript.
+The Awesome Book project had a simple objective: to build a book store website where users could easily add or remove books. All book details, like titles and authors, were stored right on the user's device for their convenience.
 
 ## 🛠 Built With <a name="built-with"></a>
 
