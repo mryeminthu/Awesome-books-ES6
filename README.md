@@ -63,7 +63,7 @@ The Awesome Book project had a simple objective: to build a book store website w
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mryeminthu.github.io/Awesome-books-ES6/)
+- [Live Demo Link](https://main--astounding-granita-0ce214.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
